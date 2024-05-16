@@ -2,174 +2,262 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the fundamental unit of Morse code?",
+      "question": "What is the main purpose of Q codes?",
       "answers": {
-        "a": "Dashes",
-        "b": "Dots",
-        "c": "Spaces",
-        "d": "Letters"
+        "a": "To convey common questions and answers concisely",
+        "b": "To encrypt messages for security",
+        "c": "To provide detailed weather information",
+        "d": "To record communication for legal purposes"
       },
       "explanations": {
-        "a": "",
-        "b": "Morse code is composed of two fundamental signal elements, dots (or dits) and dashes (or dahs). Dots are the shorter signals used to represent individual letters or characters.",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "b",
-      "difficulty": "Beginner"
-    },
-    {
-      "question": "In what form can Morse code be transmitted?",
-      "answers": {
-        "a": "Only through telegraph lines",
-        "b": "Through wires, radios, sound, light, and more",
-        "c": "Only through mechanical devices",
-        "d": "Only through drumming"
-      },
-      "explanations": {
-        "a": "",
-        "b": "Morse code can be transmitted through various mediums, including wires (telegraph lines), radios, sound (by tapping or drumming), light (by flashing), and even buzzing (as used in some mechanical devices).",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "b",
-      "difficulty": "Beginner"
-    },
-    {
-      "question": "What was the original purpose of Morse code?",
-      "answers": {
-        "a": "Radio communication",
-        "b": "Emergency signalling",
-        "c": "Long-distance message transmission",
-        "d": "Ham radio operation"
-      },
-      "explanations": {
-        "a": "",
-        "b": "",
-        "c": "The original purpose of Morse code was indeed for long-distance message transmission through telegraph systems, not radio communication or ham radio operation.",
-        "d": ""
-      },
-      "correctAnswer": "c",
-      "difficulty": "Beginner"
-    },
-    {
-      "question": "How many times longer is a dash compared to a dot in Morse code?",
-      "answers": {
-        "a": "Two times",
-        "b": "Three times",
-        "c": "Four times",
-        "d": "Five times"
-      },
-      "explanations": {
-        "a": "",
-        "b": " A dash in Morse code is three times longer in duration than a dot, not two or four times.",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "b",
-      "difficulty": "Intermediate"
-    },
-    {
-      "question": "How are letters separated within a word in Morse code?",
-      "answers": {
-        "a": "One dot",
-        "b": "One dash",
-        "c": "Three dots",
-        "d": "Seven dot"
-      },
-      "explanations": {
-        "a": "",
-        "b": "",
-        "c": "Letters within a word in Morse code are separated by a space equal to three dots, not one dot.",
-        "d": ""
-      },
-      "correctAnswer": "c",
-      "difficulty": "Intermediate"
-    },
-    {
-      "question": "Who primarily uses Morse code today for long-distance communication?",
-      "answers": {
-        "a": "Ham radio operators",
-        "b": "Television broadcasters",
-        "c": "Telephone operators",
-        "d": "Internet service providers"
-      },
-      "explanations": {
-        "a": "Ham radio operators commonly use Morse code for long-distance communication due to its efficiency and effectiveness in low-bandwidth conditions.",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Correct. Q codes express common questions and answers quickly.",
+        "b": "Incorrect. Q codes are not for encryption.",
+        "c": "Incorrect. Q codes are not primarily for weather information.",
+        "d": "Incorrect. Q codes are not for legal recording."
       },
       "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "When were the first Q codes developed?",
+      "answers": {
+        "a": "1809",
+        "b": "1909",
+        "c": "1950",
+        "d": "2000"
+      },
+      "explanations": {
+        "a": "Incorrect. The first Q codes were developed in a different year.",
+        "b": "Correct. The first Q codes were developed in 1909.",
+        "c": "Incorrect. The development did not occur in 1950.",
+        "d": "The first Q codes were developed much earlier than 2000."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the format of Q codes?",
+      "answers": {
+        "a": "Two-letter combinations",
+        "b": "Four-letter combinations",
+        "c": "Three-letter combinations starting with 'Q'",
+        "d": "Random assortment of letters"
+      },
+      "explanations": {
+        "a": "Incorrect. Q codes do not have a two-letter format.",
+        "b": "Incorrect. Q codes are not typically four-letter combinations.",
+        "c": "Correct. Q codes have a format of three-letter combinations starting with 'Q'.",
+        "d": "Incorrect. Q codes follow a specific pattern."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In which field were Q codes originally developed for use?",
+      "answers": {
+        "a": "Military Communication",
+        "b": "Aviation",
+        "c": "Maritime Communication",
+        "d": "Postal Services"
+      },
+      "explanations": {
+        "a": "Incorrect. Q codes were not originally developed for military communication.",
+        "b": "Incorrect. They were not originally developed for aviation.",
+        "c": "Correct. Q codes were originally developed for maritime communication.",
+        "d": "Incorrect. Q codes were not created for postal services."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is QTH used to inquire about?",
+      "answers": {
+        "a": "Weather updates",
+        "b": "Radio frequency adjustments",
+        "c": "Station's position",
+        "d": "Signal strength"
+      },
+      "explanations": {
+        "a": "Incorrect. QTH is not used for weather updates.",
+        "b": "Incorrect. QTH is not related to radio frequency adjustments.",
+        "c": "Correct. QTH is used to inquire about the station's position.",
+        "d": "Incorrect. QTH is not used to inquire about signal strength."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the significance of Q codes in multilingual communication?",
+      "answers": {
+        "a": "They help in encrypting messages in various language",
+        "b": "They facilitate quick and clear communication between speakers of different languages",
+        "c": "They provide detailed information on linguistic nuances",
+        "d": "They are primarily used in one language only"
+      },
+      "explanations": {
+        "a": "Q codes are not used for encrypting messages but for efficient communicat.",
+        "b": "Q codes are designed to ensure rapid and clear communication among speakers of different languages..",
+        "c": "Q codes are concise abbreviations, not meant for detailed linguistic nuances",
+        "d": "Q codes are used internationally and not limited to one language."
+      },
+      "correctAnswer": "b",
       "difficulty": "Intermediate"
     },
     {
-      "question": "How is a Morse code word separated from another word?",
+      "question": "How have Q codes evolved with modern technology?",
       "answers": {
-        "a": "One space equal to a dot",
-        "b": "Two spaces equal to a dot",
-        "c": "Three spaces equal to a dash",
-        "d": "spaces equal to seven dots"
+        "a": "They are no longer used in modern communication",
+        "b": "They are now expressed using four-letter combinations",
+        "c": "They are now communicated using only Morse code",
+        "d": "They are adapted to modern-day technology and can be communicated verbally"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "In Morse code, words are separated by a space equal to seven dots. This longer space helps distinguish between individual words."
+        "a": "Q codes are still used in various communication fields.",
+        "b": "Q codes continue to use three-letter combinations, not four.",
+        "c": "Q codes have evolved to be used with modern technology and can be spoken verbally",
+        "d": "Q codes have adapted to modern technology and can be communicated verbally in addition to Morse code."
       },
       "correctAnswer": "d",
       "difficulty": "Intermediate"
+
     },
     {
-        "question": "Which of the following is NOT mentioned as a medium for transmitting Morse code?",
-        "answers": {
-          "a": "Sound",
-          "b": "Light",
-          "c": "Telegraph lines",
-          "d": "Printing"
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "",
-          "d": "Printing is not mentioned as a medium for transmitting Morse code in the provided information."
-        },
-        "correctAnswer": "d",
-        "difficulty": "Advanced"
+      "question": "Apart from maritime communication, where else are Q codes commonly used?",
+      "answers": {
+        "a": "Military operations",
+        "b": "Postal services",
+        "c": "Aeronautics",
+        "d": "Public transportation"
       },
-      {
-        "question": "What is the purpose of the short silence following each dot or dash in Morse code?",
-        "answers": {
-          "a": "To confuse the recipient",
-          "b": "To save energy",
-          "c": "To separate individual letters",
-          "d": "It has no specific purpose"
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "The short silence following each dot or dash in Morse code is used to separate individual letters, making it clear where one letter ends and the next begins.",
-          "d": ""
-        },
-        "correctAnswer": "c",
-        "difficulty": "Advanced"
+      "explanations": {
+        "a": "Q codes are not limited to military operations; they are used in various fields.",
+        "b": "Postal services use different coding systems; Q codes are not their primary choice.",
+        "c": "Aeronautics is one of the fields where Q codes are commonly used.",
+        "d": "Public transportation does not commonly use Q codes for communication."
       },
-      {
-        "question": "Why is Morse code still relevant today?",
-        "answers": {
-          "a": "It's used for secure military communication.",
-          "b": "It's a fun hobby for enthusiasts.",
-          "c": "It aids communication for individuals with disabilities.",
-          "d": "It's a required skill for all telegraph operators."
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "Morse code is still used today, especially in technologies and devices designed to assist individuals with disabilities, such as communication devices for those who cannot speak or write conventionally. It provides an efficient and versatile means of communication for such individuals.",
-          "d": ""
-        },
-        "correctAnswer": "c",
-        "difficulty": "Advanced"
-      }
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Which organisation played a role in formalising Q codes?",
+      "answers": {
+        "a": "The International Morse Code Society",
+        "b": "The United Nations",
+        "c": "The International Radiotelegraph Convention",
+        "d": "The World Health Organization"
+      },
+      "explanations": {
+        "a": "The International Morse Code Society was not responsible for formalizing Q codes.",
+        "b": "The United Nations is not the organization associated with formalizing Q codes.",
+        "c": "The International Radiotelegraph Convention played a role in formalizing Q codes.",
+        "d": "The World Health Organization is unrelated to the formalization of Q codes."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do Q codes help in amateur radio communication?",
+      "answers": {
+        "a": "They allow for encryption of messages",
+        "b": "They enable communication only in Morse code",
+        "c": " They streamline communication, especially in challenging conditions",
+        "d": "They are used for military communication"
+      },
+      "explanations": {
+        "a": "Q codes do not typically involve encryption of messages in amateur radio.",
+        "b": "While Morse code is a part of amateur radio, Q codes are not limited to Morse code.",
+        "c": "Q codes help streamline communication, particularly in challenging situations.",
+        "d": "Q codes are not primarily used for military communication in amateur radio contexts."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is the primary difference between Q codes and standard language in radio communication?",
+      "answers": {
+        "a": "Q codes are more secure and encrypted, while standard language is not.",
+        "b": "Q codes are used exclusively in Morse code, while standard language is spoken.",
+        "c": "Q codes allow for international communication, while standard language is limited to one's native language.",
+        "d": "Q codes are reserved for emergency situations, while standard language is used for routine communication"
+      },
+      "explanations": {
+        "a": "Q codes do not necessarily involve encryption; they are more about brevity and clarity",
+        "b": "Q codes are primarily used in Morse code, while standard language is spoken.",
+        "c": "Both Q codes and standard language can facilitate international communication.",
+        "d": "Q codes are not reserved exclusively for emergencies; they are used for various purposes in radio communication."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+
+    },
+    {
+      "question": "In the context of amateur radio, how do Q codes contribute to safety during emergency responses?",
+      "answers": {
+        "a": "They enable encryption of sensitive information.",
+        "b": "They provide detailed weather reports.",
+        "c": "They streamline communication, ensuring rapid responses in emergency situations.",
+        "d": "They are primarily used for routine communication and not for emergencies"
+      },
+      "explanation": {
+        "a": "Q codes are not primarily for encryption; they focus on efficient communication.",
+        "b": "Providing weather reports is not the primary purpose of Q codes.",
+        "c": "Q codes are essential in ensuring quick and efficient communication during emergencies.",
+        "d": "While Q codes are used in various contexts, they are valuable for emergency responses."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How have advancements in modern technology impacted the use of Q codes in radio communication?",
+      "answers": {
+        "a": "Modern technology has rendered Q codes obsolete, and they are no longer used",
+        "b": "Q codes have become longer and more complex to accommodate advanced technology.",
+        "c": "Q codes have evolved to be compatible with modern technology and can be communicated verbally.",
+        "d": "Q codes are now primarily used for written communication, while verbal communication uses standard language."
+      },
+      "explanations": {
+        "a": "Modern technology hasn't made Q codes obsolete; they are still relevant.",
+        "b": "Q codes have retained their concise format, not becoming longer or more complex.",
+        "c": "Q codes have adapted to modern technology and can be spoken, not limited to written communication.",
+        "d": "Q codes are used in both written and spoken communication, alongside standard language."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "In radio communication, why is brevity important, and how do Q codes address this need?",
+      "answers": {
+        "a": "Brevity is essential to save transmission costs, and Q codes help reduce message length",
+        "b": "Brevity allows for more messages to be transmitted in a given time, and Q codes enable concise communication.",
+        "c": "Brevity minimises interference with other communication systems, and Q codes promote shorter transmissions",
+        "d": "Brevity is a regulatory requirement, and Q codes ensure compliance with communication standards"
+      },
+      "explanations": {
+        "a": "While brevity can save costs, Q codes primarily focus on concise communication, not reducing costs.",
+        "b": "Brevity allows more messages in a limited time, and Q codes help achieve this through concise communication.",
+        "c": "Brevity does minimize interference, but Q codes aim to keep messages brief and to the point.",
+        "d": "While brevity is important for regulation, Q codes focus on clear and efficient communication, regardless of regulatory requirements."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What are the primary benefits of using standardised Q codes in radio communication?",
+      "answers": {
+        "a": "Standardised Q codes prevent the use of local dialects in communication.",
+        "b": "They ensure that all radio operators understand and use the same codes.",
+        "c": "Q codes are immune to interference and can be used in all weather conditions",
+        "d": " Standardised Q codes have a universal meaning in all languages"
+      },
+      "explanations": {
+        "a": "While Q codes provide standardisation, they don't specifically prevent the use of local dialects.",
+        "b": "Standardised Q codes ensure that everyone in radio communication understands and uses the same set of codes for efficient communication.",
+        "c": "Q codes aim to keep communication concise but aren't inherently immune to interference or weather conditions.",
+        "d": "Standardised Q codes provide a common meaning across languages, but they may not be universal for all languages."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    }
+
   ]
 }
