@@ -1,142 +1,262 @@
- {
+
+{
   "version": 2.0,
-  "questions": [
+  "questions":[
     {
-      "question": "Which Morse code sequence is used for the number 0?",
+      "question": "In Morse code communication, what does QTH stand for?",
       "answers": {
-        "a": ".-...",
-        "b": "-..--",
-        "c": "..-...",
-        "d": "-----"
+        "a": "Quiet The House?",
+        "b": "Do you have interference?",
+        "c": "Query The Hive?",
+        "d": "What is your location?"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "In Morse code, each numeral is represented by a unique combination of dots (.) and dashes (-). The Morse code sequence for the number 0 is \"-----.\""
+        "a": "'Quiet The House,'is not the correct meaning of QTH",
+        "b": "'Do you have interference?'is not the correct meaning of QTH.",
+        "c": "'Query The Hive,' is not the correct meaning of QTH.",
+        "d": " In Morse code and Q  code  communication 'QTH' is used to inquire about a station's location or position."
       },
       "correctAnswer": "d",
-      "difficulty": "Beginner"
+      "difficulty": "beginner"
     },
     {
-      "question": "Morse code for the number 2 is:",
+      "question": "What does QSL mean in Morse code communication?",
       "answers": {
-        "a": "..---",
-        "b": "-....",
-        "c": ".-..-",
-        "d": "--.-"
+        "a": "Quick Send Later",
+        "b": "I acknowledge receipt.",
+        "c": "Query Signal Lost",
+        "d": "Please repeat the message."
       },
       "explanations": {
-        "a": "For the number 2, the Morse code is \"..---\"",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "a",
-      "difficulty": "Beginner"
-    },
-    {
-      "question": "Which Morse code character represents the number 7?",
-      "answers": {
-        "a": "-.-.-",
-        "b": "--...",
-        "c": ".-..-",
-        "d": "..---"
-      },
-      "explanations": {
-        "a": "",
-        "b": "For the number 7, the Morse code is \"--...\"",
-        "c": "",
-        "d": ""
+        "a": "'Quick Send Later' is not the correct meaning of QSL.",
+        "b": "In Morse code and radio communication, 'QSL' is used to acknowledge receipt of a message.",
+        "c": "'Query Signal Lost' is not the correct meaning of QSL.",
+        "d": " 'Please repeat the message' is not the correct meaning of QSL."
       },
       "correctAnswer": "b",
-      "difficulty": "Beginner"
+      "difficulty": "beginner"
     },
     {
-      "question": "What Morse code symbol corresponds to the number 99?",
+      "question": "What does the Q code QRO represent?",
       "answers": {
-        "a": ".----",
-        "b": "-..-  -..-",
-        "c": "----. ----.",
-        "d": "-.-.- -..-"
+        "a": "Quiet, Read Only",
+        "b": "Shall I decrease transmitter power?",
+        "c": "Request Operator",
+        "d": "Shall I increase transmitter power?"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "For the number 99, the Morse code is \"----. ----.\"",
-        "d": ""
-      },
-      "correctAnswer": "c",
-      "difficulty": "Intermediate"
-    },
-    {
-      "question": "What is the Morse code representation for the number 57?",
-      "answers": {
-        "a": "-....",
-        "b": ".....",
-        "c": ".....--...",
-        "d": "-....."
-      },
-      "explanations": {
-        "a": "",
-        "b": "",
-        "c": "For the number 57, the Morse code is \".....--...\"",
-        "d": ""
-      },
-      "correctAnswer": "c",
-      "difficulty": "Intermediate"
-    },
-    {
-      "question": "Write the Morse code for the number 09.",
-      "answers": {
-        "a": "----- --...",
-        "b": ".---- .....-",
-        "c": "---..",
-        "d": ".....-"
-      },
-      "explanations": {
-        "a": "For the number 09, the Morse code is \"----- --...\"",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "a",
-      "difficulty": "Intermediate"
-    },
-    {
-      "question": "Translate the following Morse code sequence into numbers: \"...-- ...-- ...--\"",
-      "answers": {
-        "a": "112",
-        "b": "222",
-        "c": "333",
-        "d": "444"
-      },
-      "explanations": {
-        "a": "",
-        "b": "",
-        "c": "The complete translation is \"333,\" and option 'b' corresponds to this sequence.",
-        "d": ""
-      },
-      "correctAnswer": "c",
-      "difficulty": "Advanced"
-    },
-    {
-      "question": "Decode this Morse code number: \"----. ---.. .---- ..---\"",
-      "answers": {
-        "a": "9128",
-        "b": "1928",
-        "c": "9281",
-        "d": "9812"
-      },
-      "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": " The correct decoding is \"9812\" and option 'd' (\"9812\") is the accurate representation of the Morse code."
+        "a": "'Quiet, Read Only' is not the correct meaning of QRO.",
+        "b": "'Shall I decrease transmitter power?,' is not the correct meaning of QRO.",
+        "c": "'Request Operator, is not the correct meaning of QRO.",
+        "d": "In radio communication, 'QRO' is used to inquire about increasing transmitter power."
       },
       "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the Morse code representation of QRM?",
+      "answers": {
+        "a": "--.- .-. ---",
+        "b": "--.- .-. --",
+        "c": "-.-. .-.",
+        "d": "--.- .-. -- --"
+      },
+      "explanations": {
+        "a": "'--.- .-. ---,'is not the correct Morse code representation for QRM.",
+        "b": " In Morse code, 'QRM' is represented as '--.- .-. --.'",
+        "c": "'-.-. .-.,' is not the correct Morse code representation for QRM.",
+        "d": "'--.- .-. -- --,' is not the correct Morse code representation for QRM."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which Q code is used to ask, 'Shall I send more slowly?'",
+      "answers": {
+        "a": "QRT",
+        "b": "QRS",
+        "c": "QRX",
+        "d": "QRZ"
+      },
+      "explanations": {
+        "a": " 'QRT,'is used to indicate 'I am shutting down.'",
+        "b": " 'QRS,' is used to ask the sender 'Shall I send more slowly?'",
+        "c": " 'QRX,'is used to ask, 'When will you call me again?'",
+        "d": " 'QRZ,' is used to ask, 'Who is calling me?."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+      
+    },
+    {
+      "question": " What is the meaning of the Q code QRN in Morse code communication?",
+      "answers": {
+        "a": "I acknowledge receipt.",
+        "b": "Are my signals fading?",
+        "c": "Is my transmission being interfered with?",
+        "d": "Please send faster."
+      },
+      "explanations": {
+        "a": "'I acknowledge receipt,' corresponds to a different Q code.",
+        "b": "'Are my signals fading?' corresponds to a different Q code.",
+        "c": "'QRN' is used to ask if your transmission is being interfered with by noise.",
+        "d": "'Please send faster,' corresponds to a different Q code."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "In Morse code, what does the Q code QRX mean?",
+      "answers": {
+        "a": "Please repeat the message",
+        "b": "Stand by.",
+        "c": "Shall I send more slowly?",
+        "d": "Shall I wait for your turn?"
+      },
+      "explanations": {
+        "a": "'Please repeat the message,' corresponds to a different Q code.",
+        "b": "'QRX' means 'Stand by' in Morse code, indicating a pause.",
+        "c": "'Shall I send more slowly,' corresponds to a different Q code.",
+        "d": "'Shall I wait for your turn,' is not the meaning of QRX in Morse code."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Which Q code is used to ask, 'Is my transmission correct?'",
+      "answers": {
+        "a": "QRN",
+        "b": "QSK",
+        "c": "QTC",
+        "d": "QSA"
+      },
+      "explanations": {
+        "a": "'QRN,' is used to inquire about interference on the frequency.",
+        "b": "'QSK,' is related to the ability to break in during a transmission.",
+        "c": "'QTC,' is used for asking if you have a message.",
+        "d": "'QSA' is used to ask about the quality of your signals, including whether your transmission is correct or clear."
+      },
+      "correctAnswer": "d",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What does QTC mean in Morse code communication?",
+      "answers": {
+        "a": "Please copy the following message",
+        "b": "Are you troubled by static?",
+        "c": "I have a message for you.",
+        "d": "Can you send faster?"
+      },
+      "explanations": {
+        "a": " 'QTC' is used to request the recipient to copy the following message.",
+        "b": "'Are you troubled by static?' is not the meaning of QTC.",
+        "c": " 'I have a message for you,'is  the meaning of QTC.",
+        "d": "'Can you send faster?' is not the meaning of QTC."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What does the Morse code Q code QSP represent?",
+      "answers": {
+        "a": "I have a message for you.",
+        "b": "Shall I send each word or group more than once?",
+        "c": "Are you troubled by static?",
+        "d": "Shall I send faster?"
+      },
+      "explanations": {
+        "a": "'I have a message for you,' is not the meaning of QSP.",
+        "b": "'QSP' is used to ask if the sender should repeat each word or group more than once.",
+        "c": "'Are you troubled by static?'is not the meaning of QSP.",
+        "d": "'Shall I send faster?'is not the meaning of QSP."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "In Morse code communication, what does QRM indicate, and what is the Morse code representation?",
+      "answers": {
+        "a": "It indicates interference, and it is represented as --.- .-. --",
+        "b": "It indicates signal fading, and it is represented as ... . --. .- .- .-..",
+        "c": "It indicates acknowledgment of receipt, and it is represented as -.-. .- ... .- - .... - .. - ",
+        "d": "It indicates low battery, and it is represented as - .... . .-.. --- -... -.-. - .. ---"
+      },
+      "explanations": {
+        "a": "'QRM' is the Morse code representation for interference.",
+        "b": "'It indicates signal fading, and it is represented as ... . --. .- .- ..' is not the meaning of QRM.",
+        "c": "'It indicates acknowledgment of receipt, and it is represented as -.-. .- ... .- - .... - .. - -.' is not the meaning of QRM.",
+        "d": "'It indicates low battery, and it is represented as - .... . .-.. --- -... -.-. - .. ---' is not the meaning of QRM."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Which Q code is used to request acknowledgment of receipt of a message in Morse code communication, and what is its Morse code representation?",
+      "answers": {
+        "a": "QRT, ... .- .-. -..",
+        "b": "QSL, --.- ... .-..",
+        "c": "QSY, --.- ... -.--",
+        "d": "QTH, --.- - ...."
+      },
+      "explanations": {
+        "a": "'QRT, ... .- .-. -..', is used to indicate that a station should stop transmitting.",
+        "b": "'QSL' is used to request acknowledgment of receipt in Morse code communication, and its representation is '--.- ... .-..'.",
+        "c": "'QSY, --.- ... -.--', is used to request a change in frequency.",
+        "d": "'QTH, --.- - ....', is used to inquire about the station's location."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the Morse code representation of QRO, and what does it indicate?",
+      "answers": {
+        "a": " --- ..- ... . .-. .--, It indicates low power.",
+        "b": " --.- .-. ---, It indicates increased power.",
+        "c": " --. .- -- .. ... .-. ---, It indicates standby.",
+        "d": "--.- .-. --- .. ... - ...., It indicates to send faster."
+      },
+      "explanations": {
+        "a": "'--- ..- ... . .-. .--', is not a valid Morse code representation for any Q code.",
+        "b": "'QRO' is represented in Morse code as '--.- .-. ---' and indicates an increase in power.",
+        "c": "'--. .- -- .. ... .-. ---', is not the Morse code representation for 'QRO' and indicates standby.",
+        "d": "'--.- .-. --- .. ... - ....', is not the Morse code representation for 'QRO' and indicates sending faster."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "In Morse code communication, what is the Q code QSK used for, and what is its Morse code representation?",
+      "answers": {
+        "a": "It's used to indicate a request to send faster, represented as --.- ... -.-.",
+        "b": "It's used to indicate a request for acknowledgement of receipt, represented as --.- ... -.-.",
+        "c": "It's used to indicate the ability to break in during a transmission, represented as --.- ... -.-",
+        "d": " It's used to indicate interference, represented as --.- ... -.-."
+      },
+      "explanations": {
+        "a": "'--.- ... -.-.', is not the Morse code representation for 'QSK' and does not indicate a request to send faster.",
+        "b": "'--.- ... -.-.', is not the Morse code representation for 'QSK' and does not indicate a request for acknowledgement of receipt.",
+        "c": "'QSK' is represented in Morse code as '--.- ... -.-' and is used to indicate the ability to break in during a transmission.",
+        "d": "'--.- ... -.-.', is not the Morse code representation for 'QSK' and does not indicate interference."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What does the Q code QSB mean in Morse code communication, and what is its Morse code representation?",
+      "answers": {
+        "a": " It indicates interference from a thunderstorm, represented as --.- ... -...",
+        "b": "It indicates fading signals, represented as --.- ... -...",
+        "c": "It indicates that a station is calling another station, represented as --.- ... -...",
+        "d": "It indicates poor antenna quality, represented as --.- ... -..."
+      },
+      "explanations": {
+        "a": "'--.- ... -...', is not the Morse code representation for 'QSB' and does not indicate interference from a thunderstorm.",
+        "b": "'QSB' in Morse code is represented as '--.- ... -...', and it indicates fading signals.",
+        "c": "'--.- ... -...', is not the Morse code representation for 'QSB' and does not indicate that a station is calling another station.",
+        "d": "'--.- ... -...', is not the Morse code representation for 'QSB' and does not indicate poor antenna quality."
+      },
+      "correctAnswer": "b",
       "difficulty": "Advanced"
     }
-    
   ]
 }
