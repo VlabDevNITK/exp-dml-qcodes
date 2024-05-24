@@ -17,3 +17,6 @@
 <p style=" text-align:justify;">Similar to Morse code, Q codes have been formalized to ensure smooth communication across different radio communication systems and languages.</p>
 
 <p style=" text-align:justify;">Q codes are commonly used in amateur radio (ham radio) to streamline communication. They help operators convey information quickly and efficiently, especially in challenging conditions.</p>
+
+<p style=" text-align:justify;">While Q codes are still used today, their prominence has lessened somewhat with the rise of voice communication in ham radio. However, Morse code and Q codes remain a fascinating piece of communication history and continue to be valuable tools for some ham radio operators. Together, these elements create a unique communication system that has allowed ham radio operators to connect, learn, and contribute to society for over a century.</p>
+</p>
