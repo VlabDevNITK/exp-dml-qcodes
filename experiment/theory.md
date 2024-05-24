@@ -1,9 +1,6 @@
-## **Introduction**
-
 ### **Q Code**
 
-<p style=" text-align:justify;">Q codes are a set of three-letter abbreviations used in radio communication, all starting with "Q." They are used to express common questions and answers quickly and directly. The first Q codes were developed by the British government in 1909 and used by the Navy as a longhand communication system. They were quickly adopted internationally as they allowed quick and clear communication between speakers of different languages. Although Q codes were initially developed for Morse code, they are also used with modern technology and can be spoken verbally. They were initially created for communication at sea but have found use in amateur radio, aviation, and other areas. This is the essence of Q codes.</p>
-
+<p style=" text-align:justify;">Q codes are a set of three-letter abbreviations used in radio communication, all starting with "Q." They are used to express common questions and answers quickly and directly. The first Q codes were developed by the British government in 1909 and used by the Navy as a longhand communication system. They were quickly adopted internationally as they allowed quick and clear communication between speakers of different languages. Although Q codes were initially developed for Morse code, they are also used with modern technology and can be spoken verbally. They were initially created for communication at sea but have found use in amateur radio, aviation, and other areas.</p>
 
 - **Beginning and Intention:**
 
