@@ -16,9 +16,9 @@
 <td>Developer : Dr. Pruthviraj U | NITK</br></br>
 Contributors :
 <ul style="list-style-type: none;">
-<li>Pavithra </li>
-<li>Kumar Aditya Singh </li>
-<li>Vaishnavi Singh </li>
+<li>Pavithra (Intern)</li>
+<li>Kumar Aditya Singh (Intern)</li>
+<li>Vaishnavi Singh (Intern)</li>
 <li>Prajwal Kumar | NITK</li>
 <li>Shraddha Shetty | NITK</li>
 <li>Anusha B Salian | NITK</li>
