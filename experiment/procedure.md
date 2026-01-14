@@ -1,25 +1,19 @@
 ### These procedure steps will be followed on the simulator
 
-**Step 1:** Open the simulation of Q CODES by navigating through the introductory paragraph, and then proceed by selecting the “NEXT” button located in the bottom right corner.
+1. Open the Q-codes simulation and go through the Objective and Description, then click the 'NEXT' button in the bottom right corner.
 
-   ![Image 1](images/1.png)
+   ![Image 1](images/page1.png)
 
-**Step 2:** Select the Q codes from the drop-down menu and click the submit button in order to go to the next step.
+2. Use the input box to search for a Q-code, or select one directly from the table. If you need to switch between the Q-code question and answer, click the toggle button.
 
-   ![Image 2](images/2.png)
+   ![Image 2](images/page2.png)
 
 <!-- #### IF ALPHABETS SELECTED: -->
 
-**Step 3:** To view the Morsecode, click the Play button. If necessary, you can adjust the slider button to view the question and answer for the corresponding Q code. To repeat for further Q codes, click the repeat button.
+3. Once a Q-code is selected, its meaning will be displayed. To generate the Morse code for the selected Q-code, click the 'Play' button. To repeat the process with a different Q-code, click the back button, enter a new Q-code in the input box, and select it from the table.
 
-   ![Image 3](images/3.png)
+   ![Image 3](images/page2.1.png)
 
-**Step 4:** To choose a Qcode answer option from a drop-down menu, move the slider button and click submit button.
 
-   ![Image 4](images/4.png)
-
-**Step 5:** Click the Play button to watch the Q code answer transmission procedure and see what it means. Click the repeat button to get more Q codes by repeating.
-
-   ![Image 5](images/5.png) 
 
 

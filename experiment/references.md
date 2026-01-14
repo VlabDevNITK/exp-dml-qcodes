@@ -1,9 +1,9 @@
 <table style="text-align:justify;">
-<tr style="background-color: white">
+<tr style="background-color: transparent">
 <th>References</th>
 <th>Contributors list</th>
 </tr>
-<tr style="background-color: white">
+<tr style="background-color: transparent">
 <td>
 <ol style="width: 500px">
 <li>National Institute of Amateur Radio (NIAR).(1983) "Amateur Radio Study Manual." <a href="http://www.niar.org/downloads/ham-downloads/Study-Manual.pdf">http://www.niar.org/downloads/ham-downloads/Study-Manual.pdf</a></li></br>
@@ -21,7 +21,6 @@ Contributors :
 <li>Pavithra (Intern)</li>
 <li>Prajwal Kumar | NITK</li>
 <li>Shraddha Shetty | NITK</li>
-<li>Anusha B Salian | NITK</li>
 </ul></td>
 </tr>
 </table>
