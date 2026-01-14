@@ -1,154 +1,220 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>SOLVE</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOLVE</title>
+  <meta name="description" content="A small project to remonstrate media queries and other responsive design patterns.">
+  <meta name="author" content="Rocco P">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/querry.css">
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 
-<body>
-    <div id="simscreen">
+<body class="paintitred">
 
-        <div class="simsubscreen" id="canvas0">
-            <div class="head">
-                <div id="title">
-                    <h3>Exploring Morse Code: Q Codes</h3>
-                </div>
-            </div>
-            <div class="main">
-                <br><br>
-                <h4 class="incanvas obj">Objective:</h4><br>
-                <p class="incanvas para" style="font-size: 14px;margin-left: 40px;">To achieve a thorough understanding
-                    and familiarity with a specific set of
-                    abbreviations employed in Morse Code communications, which are commonly
-                    referred to as Q Codes.</p>
-                <br><br>
-                <h4 id="description">Description:</h4>
-                <br>
-                <p class="incanvas para1 " style="font-size: 14px; text-align: justify; margin-left: 40px;">Morse code
-                    is a method of transmitting text information as a series of on-off tones,
-                    lights, or clicks that can be directly understood by a skilled listener or observer
-                    without special equipment. It is a system of dots and dashes that can be used to
-                    send messages over long distances. It was originally used by telegraph operators to
-                    send messages using electrical pulses. Radio communicators later adapted the code
-                    to use it as an auditory language. <br>
-                    <br>Morse code can be used to send messages using Wires, Radios, Sound, Light.
-                    Messages can be sent by Tapping, Drumming, Buzzing, Clicking, or flashing light.
-                    Morse code is still used today by many ham radio operators. It's a recognised mode
-                    of communication in the amateur radio community, and some operators enjoy the
-                    challenge and efficiency of using Morse code for long-distance communication. It is
-                    also used in emergency signals and in technology to help disabled people
-                    communicate.</p>
-            </div>
-
-            <div id="nav">
-                <img id="nextButton" onclick="navNext()" src="images/Next.png" />
-            </div>
-
-            <div id="copyright"> &copy; 2023-<script>
-                    document.write(new Date().getFullYear())
-                </script> SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean Engineering
-            </div>
-        </div>
-
-        <div class="simsubscreen" id="canvas1" style="visibility:hidden;">
-            <div class="head">
-                <div id="title">
-                    <h3>Exploring Morse Code: Q Codes</h3>
-                </div>
-            </div>
-            <div class="main1">
-                <div class="step1">
-                    <strong class="incanvas" style="position: relative; left: -4px;">STEP</strong>
-                    <span class="circlebg">&nbsp;1&nbsp;</span>
-                    <span class="steptext" style="font-family: Verdana; font-size: 14px; ">&nbsp;Select the Q Codes from
-                        dropdown menu.</span>
-                </div>
-
-                <div id="controls-container">
-                    <label class="switch">
-                        <input type="checkbox" id="toggle">
-                        <span class="slider"></span>
-                    </label>
-                    <label for="toggle" id="question">Question</label>
-                    <label for="toggle" id="answer">Answer</label>
-
-                    <label for="dropdown-container" id="label1" style="font-family: Verdana; font-size: 14px; ">Select
-                        the Q codes :</label>
-                    <div id="dropdown-container">
-                        <select id="dropdown"></select>
-                    </div>
-                </div>
-
-                <div id="mandatoryMessage">
-                    Please select an option from the dropdown.
-                </div>
-
-                <button id="submit" onclick="navNext();select();fadeInBox();">Submit</button>
-                <div id="copyright"> &copy; 2023-<script>
-                        document.write(new Date().getFullYear())
-                    </script> SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean
-                    Engineering</div>
-
-            </div>
-        </div>
-
-
-        <div class="simsubscreen" id="canvas2" style="visibility:hidden;">
-            <div class="head">
-                <div id="title">
-                    <h3>Exploring Morse Code: Q Codes</h3>
-                </div>
-            </div>
-            <div class="main2">
-                <div class="step2">
-                    <strong class="incanvas step" style="position: relative; left: -4px;">STEP</strong>
-                    <span class="circlebg">&nbsp;2&nbsp;</span>
-                    <span class="steptext" style="font-family: Verdana; font-size: 14px" ;>&nbsp;Click on the play
-                        button to start the transmission process.</span>
-                </div>
-
-                <div id="controls-container">
-                    <label class="switch">
-                        <input type="checkbox" id="toggle2"
-                            onclick="clearSelectionsOnCurrentPage(), resetCurrentPage()">
-                        <span class="slider"></span>
-                    </label>
-                    <label for="toggle" id="question">Question</label>
-                    <label for="toggle" id="answer">Answer</label>
-
-                    <label for="dropdown-container" id="label1" style="font-family: Verdana; font-size: 14px; ">Selected
-                        Q code :</label>
-                    <div id="dropdown-container2">
-                        <select id="dropdown2"></select>
-                    </div>
-                </div>
-
-                <div id="resultbox"></div>
-                <div id="resultbox1"></div>
-                <button class="playbutton" id="play" onclick="play()"><span class="playArrow">&#9654;</span><br><span
-                        class="playText">Play</span></button>
-                <div class="audio">Keep audio on</div>
-                <div class="box" id="qbox"></div>
-                <div class="codebox" id="codebox"></div>
-                <button class="loop-button" id="loop-button" onclick="navPrev()"><span
-                        class="material-symbols-outlined">
-                        repeat
-                    </span><br>Repeat</button>
-
-                <div id="copyright"> &copy; 2023-<script>
-                        document.write(new Date().getFullYear())
-                    </script> SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean
-                    Engineering</div>
-
-            </div>
-        </div>
+  <main class="content">
+    <div class="main-heading">
+      <h1>Exploring Morse Code: Q Codes</h1>
 
     </div>
-    <script src="script.js"></script>
+    <div class="main-canvas">
+      <div class="simsubscreen" id="canvas0">
+        <div class="grid-page1">
+          <h4 class="incanvas">Objective:</h4>
+          <p class="incanvas" style="font-size:14px;text-align: justify;">To achieve a thorough understanding
+            and familiarity with a specific set of
+            abbreviations employed in Morse Code communications, which are commonly
+            referred to as Q Codes.</p>
+          <br />
+
+          <br>
+          <h4 class="incanvas">Description:</h4>
+
+          <p class="incanvas" style="font-size:14px; text-align: justify;">
+            Morse code
+            is a method of transmitting text information as a series of on-off tones,
+            lights, or clicks that can be directly understood by a skilled listener or observer
+            without special equipment. It is a system of dots and dashes that can be used to
+            send messages over long distances. It was originally used by telegraph operators to
+            send messages using electrical pulses. Radio communicators later adapted the code
+            to use it as an auditory language. <br>
+            <br>Morse code can be used to send messages using Wires, Radios, Sound, Light.
+            Messages can be sent by Tapping, Drumming, Buzzing, Clicking, or flashing light.
+            Morse code is still used today by many ham radio operators. It's a recognised mode
+            of communication in the amateur radio community, and some operators enjoy the
+            challenge and efficiency of using Morse code for long-distance communication. It is
+            also used in emergency signals and in technology to help disabled people
+            communicate.<br><br>
+            By utilising Q codes, radio operators can convey complex information with brevity and precision, 
+             effective communication in high-stakes or time-sensitive environments where clarity and speed are paramount.
+          
+          </p>
+
+        </div>
+
+      </div>
+      <div class="simsubscreen" id="canvas1" name="canvas1" style="display: none;">
+        <div>
+
+
+          <strong class="incanvas">STEP:</strong>
+          <p class="steptext">&nbsp;
+            <span class="justify-text">
+              Select a Q code by clicking or using the search box.
+            </span>
+
+          </p>
+          <br><br><br>
+          <div class="main1" style="display: flex;align-items: center;justify-content: center; margin-top: -50px;">
+            <div class="searchDiv">
+              <span class="selectText grid-item1">Search a Q CODE :</span>
+              <input type="text" id="searchInput" class="grid-item2" placeholder="" oninput="removeInvalidCharacters()"
+                onkeyup="filterQcodes()" autocomplete="off" title="Search here for Q codes">
+              <span class="grid-item3">
+                <label class="switch">
+
+                  <input type="checkbox" id="toggle">
+                  <span class="slider"></span>
+
+                </label>
+                <br>
+                <span class="labelDiv">
+                  <label for="toggle" id="question">Question</label>
+                  <label for="toggle" id="answer">Answer</label>
+                </span>
+              </span>
+
+
+            </div>
+          </div>
+
+
+
+
+
+          <div>
+
+          </div>
+          <div style="margin: 0;">
+            <div class="selectmorse">
+            </div>
+            <p class="morse" id="numberMorse" hidden></p>
+            <div class="morsePlay">
+              <!-- <p class="dm" id="dm1" ></p> -->
+              <span class="out "></span>
+              <span class="output" style="display: none;"></span>
+              <button id="playButton" onclick="playMorseSequence()">Play</button>
+
+              <p>
+                <span id="morseOutput" class="out2" class="morse-char-initial" id="morse-output1"></span>
+              </p>
+            </div>
+            <div class="audText">
+              <p class="text3 ad" style="display: none;">keep audio on
+              </p>
+            </div>
+
+            <div class="menu-container">
+              <div class="outer-border">
+                <div class="table-container">
+                  <div class="Q-Box" id="q1">QRA?</div>
+                  <div class="Q-Box" id="q2">QRG?</div>
+                  <div class="Q-Box" id="q3">QRH?</div>
+                  <div class="Q-Box" id="q4">QRI?</div>
+                  <div class="Q-Box" id="q5">QRJ?</div>
+                  <div class="Q-Box" id="q6">QRK?</div>
+                  <div class="Q-Box" id="q7">QRL?</div>
+                  <div class="Q-Box" id="q8">QRM?</div>
+                  <div class="Q-Box" id="q9">QRN?</div>
+                  <div class="Q-Box" id="q10">QRO?</div>
+                  <div class="Q-Box" id="q11">QRP?</div>
+                  <div class="Q-Box" id="q12">QRQ?</div>
+                  <div class="Q-Box" id="q13">QRS?</div>
+                  <div class="Q-Box" id="q14">QRT?</div>
+                  <div class="Q-Box" id="q15">QRU?</div>
+                  <div class="Q-Box" id="q16">QRV?</div>
+                  <div class="Q-Box" id="q17">QRW?</div>
+                  <div class="Q-Box" id="q18">QRX?</div>
+                  <div class="Q-Box" id="q19">QRZ?</div>
+                  <div class="Q-Box" id="q20">QSA?</div>
+                  <div class="Q-Box" id="q21">QSB?</div>
+                  <div class="Q-Box" id="q22">QSD?</div>
+                  <div class="Q-Box" id="q23">QSG?</div>
+                  <div class="Q-Box" id="q24">QSK?</div>
+                  <div class="Q-Box" id="q25">QSL?</div>
+                  <div class="Q-Box" id="q26">QSM?</div>
+                  <div class="Q-Box" id="q27">QSN?</div>
+                  <div class="Q-Box" id="q28">QSO?</div>
+                  <div class="Q-Box" id="q29">QSP?</div>
+                  <div class="Q-Box" id="q30">QSR?</div>
+                  <div class="Q-Box" id="q31">QSS?</div>
+                  <div class="Q-Box" id="q32">QST?</div>
+                  <div class="Q-Box" id="q33">QSU?</div>
+                  <div class="Q-Box" id="q34">QSW?</div>
+                  <div class="Q-Box" id="q35">QSX?</div>
+                  <div class="Q-Box" id="q36">QSY?</div>
+                  <div class="Q-Box" id="q37">QSZ?</div>
+                  <div class="Q-Box" id="q38">QTA?</div>
+                  <div class="Q-Box" id="q39">QTC?</div>
+                  <div class="Q-Box" id="q40">QTH?</div>
+                  <div class="Q-Box" id="q41">QTR?</div>
+                  <div class="Q-Box" id="q42">QTU?</div>
+                  <div class="Q-Box" id="q43">QTX?</div>
+                  <div class="Q-Box" id="q44">QUA?</div>
+                  <div class="Q-Box" id="q45">QUC?</div>
+                  <div class="Q-Box" id="q46">QUD?</div>
+                  <div class="Q-Box" id="q47">QUE?</div>
+                  <div class="Q-Box" id="q48">QUF?</div>
+                </div>
+
+              </div>
+            </div>
+
+
+            <span class="text2">
+              <p id="meaningText" class="meanText" style="display: none;"></p>
+            </span>
+            <div class="infoQcode">
+              <div id="questOutput"></div>
+              <div id="answerOutput"></div>
+            </div>
+            <div id="errorMessage" class="error-message">Error: No matching item found. Please enter valid Qcodes.</div>
+
+            <div id="backDiv">
+              <button id="backButton">
+                <img src="./images/left-arrow-in-circular-button-black-symbol.png" alt="Back">
+                Back</button>
+
+
+            </div>
+            <div class="errorText2">
+              <div id="errorText" style="color: red; text-align: center;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="nav">
+
+        <img id="nextButton" onclick="navNext()" src="images/Next.png" alt="" /></a>
+
+      </div>
+      <div id="copyright"> &copy;<script>
+          document.write(new Date().getFullYear() - 1);
+          document.write(" - ");
+          document.write(new Date().getFullYear());
+        </script> SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean Engineering
+      </div>
+    </div>
+    </div>
+  </main>
+
 </body>
 
 </html>

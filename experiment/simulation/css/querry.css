@@ -1,0 +1,336 @@
+
+@media screen and (min-width: 300px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  #copyright{
+    margin: 0px 20px;
+  }
+  .numberInput{
+    width: 15%;
+  }
+  #morseOutput {
+    grid-column: 1;
+    font-size: 45px;
+}
+  /* .simsubscreen
+{
+  margin: 0px ;
+
+} */
+  /* .main-canvas{
+    transform: scale(0.8);
+  } */
+  .morsePlay{
+    grid-template-columns: 1fr;
+   }
+   .table-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    overflow: auto; /* Enable scrolling */
+    max-height: 300px; /* Adjust height as needed */
+    }
+    #morseOutput {
+      grid-column: 1;
+      font-size: 35px;
+    }
+    .main-canvas{
+      height: 100%;
+      width: auto;
+    }
+    .selectText{
+      font-size: 12px;
+      /* font-weight: bold; */
+      }
+      #answer{
+        font-size: 9px;
+        color: #000;
+        font-weight: bold;
+        margin-left: -1px;
+        }
+
+        #question {
+          margin-left: -9px;
+          font-size: 9px;
+          color: #000;
+          font-weight: bold;
+      }
+      #questOutput{
+        font-size: 16px;
+      }
+
+      #answerOutput{
+        font-size: 16px;
+      }
+      #searchInput{
+        width: 55px	;
+        font-size: 16px;
+        text-transform: uppercase;
+        }
+        #errorMessage{
+          position: relative;
+          top: 0px;
+          margin: 8px;
+        }
+ 
+}
+@media screen and (min-width: 500px) {
+
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+    /* .main-canvas{
+      transform: scale(0.7);
+    } */
+     .morsePlay{
+      grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+     }
+      #morseOutput {
+        grid-column: 1;
+        font-size: 60px;
+    }
+    .table-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background-color: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 10px;
+      overflow: auto; /* Enable scrolling */
+      max-height: 300px; /* Adjust height as needed */
+      }
+      #morseOutput {
+        grid-column: 1;
+        font-size: 45px;
+      }
+      .main-canvas{
+        height: 100%;
+        width: auto;
+      }
+      .selectText{
+        font-size: 14px;
+        /* font-weight: bold; */
+        }
+        #answer{
+          font-size: 12px;
+          color: #000;
+          font-weight: bold;
+          margin-left: 6px;
+          }
+
+          #question {
+            margin-left: -9px;
+            font-size: 12px;
+            color: #000;
+            font-weight: bold;
+        }
+        #questOutput{
+          font-size: 18px;
+        }
+
+        #answerOutput{
+          font-size: 18px;
+        }
+        #searchInput{
+          width: 80px	;
+          font-size: 16px;
+          text-transform: uppercase;
+          }
+          #errorMessage{
+            position: relative;
+            top: 0px;
+            margin: 8px;
+          }
+     /* .numberInput{
+      width: 8%;
+    } */
+  }
+  
+  
+  @media screen and (min-width: 720px) {
+  
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+  
+    .content {
+      height: 600px;
+      width: 800px;
+      margin: 0 auto;
+    }
+    /* .main-canvas{
+      transform: scale(1);
+    } */
+    .morsePlay{
+      grid-template-columns: 1fr 1fr 1fr;
+     }
+     #morseOutput {
+      grid-column: 1;
+      font-size: 60px;
+  }
+  .table-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    overflow: auto; /* Enable scrolling */
+    max-height: 300px; /* Adjust height as needed */
+    }
+    #morseOutput {
+      grid-column: 1;
+      font-size: 30px;
+    }
+    h1 {
+      font-size: 2em;
+      text-align: center;
+    }
+    .selectText{
+      font-size: 14px;
+      }
+      #answer{
+        font-size: 12px;
+        color: #000;
+        font-weight: bold;
+        margin-left: 4px;
+        }
+        #question{
+          margin-left: -20px;
+          font-size: 12px;
+          color: #000;
+          font-weight: bold;
+          }
+          #questOutput{
+            font-size: 20px;
+          }
+
+          #answerOutput{
+            font-size: 20px;
+          }
+          #searchInput{
+            width: 90px	;
+            font-size: 16px;
+            text-transform: uppercase;
+            }
+            #errorMessage{
+              position: relative;
+              top: 170px;
+            }
+         
+  }
+  
+  
+  @media screen and (min-width: 960px) {
+  
+    body {
+      font-size: 1.25em;
+      /* background-color: rgb(13, 118, 255); */
+    }
+    .content {
+      height: 600px;
+      width: 800px;
+      margin: 0 auto;
+    }
+    .numberInput{
+      width: 8%;
+    }
+    #morseOutput {
+      grid-column: 1;
+      font-weight: bold;
+      font-size: 32px;
+      letter-spacing: 2px;
+      color: black;
+      font-family: Arial, sans-serif;
+      
+    }
+  .table-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    overflow: auto; /* Enable scrolling */
+    max-height: 300px; /* Adjust height as needed */
+    }
+    h1 {
+      font-size: 2em;
+      text-align: center;
+    }
+    #searchInput{
+      width: 100px	;
+      font-size: 16px;
+      text-transform: uppercase;
+      }
+    
+      #errorMessage{
+        position: relative;
+        top: 170px;
+      }
+   
+/* .main-canvas{
+      transform: scale(1);
+    } */
+  }
+
+  @media screen and (min-width: 1200px) {
+    #question{
+      margin-left: -20px;
+      font-size: 14px;
+      color: #000;
+      font-weight: bold;
+      }
+      #question{
+        margin-left: -20px;
+        font-size: 14px;
+        color: #000;
+        font-weight: bold;
+        }
+        #answer{
+        font-size: 14px;
+        color: #000;
+        font-weight: bold;
+        margin-left: 4px;
+        }
+        #questOutput{
+          display: none;
+          font-size: 22px;
+            font-weight: bold;
+            border: 1.5px solid black;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #d3d3d3;
+            text-align: justify;
+          }
+        
+          #answerOutput{
+          display: none;
+          font-size: 22px;
+            font-weight: bold;
+            border: 1.5px solid black;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #d3d3d3;
+            text-align: justify;
+          }
+          #searchInput{
+            width: 100px	;
+            font-size: 16px;
+            text-transform: uppercase;
+            }
+            #errorMessage{
+              position: relative;
+              top: 170px;
+            }
+    
+  }

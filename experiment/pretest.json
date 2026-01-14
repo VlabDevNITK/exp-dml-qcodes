@@ -126,16 +126,16 @@
       "answers": {
         "a": "Military operations",
         "b": "Postal services",
-        "c": "Aeronautics",
+        "c": "Healthcare",
         "d": "Public transportation"
       },
       "explanations": {
-        "a": "Q codes are not limited to military operations; they are used in various fields.",
+        "a": "Q codes are used in military operations, as well as in other fields like aviation and amateur radio.",
         "b": "Postal services use different coding systems; Q codes are not their primary choice.",
-        "c": "Aeronautics is one of the fields where Q codes are commonly used.",
+        "c": "The healthcare industry uses different communication systems and standards; Q codes are not commonly employed in this field.",
         "d": "Public transportation does not commonly use Q codes for communication."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "A",
       "difficulty": "Intermediate"
     },
     {
@@ -208,20 +208,20 @@
       "difficulty": "Advanced"
     },
     {
-      "question": "How have advancements in modern technology impacted the use of Q codes in radio communication?",
+      "question": "Why are Q codes crucial for radio communication in high-stakes situations?",
       "answers": {
-        "a": "Modern technology has rendered Q codes obsolete, and they are no longer used",
-        "b": "Q codes have become longer and more complex to accommodate advanced technology.",
-        "c": "Q codes have evolved to be compatible with modern technology and can be communicated verbally.",
-        "d": "Q codes are now primarily used for written communication, while verbal communication uses standard language."
+        "a": "They allow for detailed explanations and discussions.",
+        "b": "They enable clear and concise communication with minimal delay.",
+        "c": "They offer encryption to protect sensitive information.",
+        "d": "They provide entertainment and leisure during long journeys."
       },
       "explanations": {
-        "a": "Modern technology hasn't made Q codes obsolete; they are still relevant.",
-        "b": "Q codes have retained their concise format, not becoming longer or more complex.",
-        "c": "Q codes have adapted to modern technology and can be spoken, not limited to written communication.",
-        "d": "Q codes are used in both written and spoken communication, alongside standard language."
+        "a": "Q codes are designed for brevity and clarity, not for detailed discussions. They are used to convey essential information quickly and efficiently.",
+        "b": "Q codes are crucial for high-stakes situations because they provide clear and concise communication, reducing the chance of miscommunication and minimizing delays.",
+        "c": "Q codes do not provide encryption. They are a system of standardized codes for quick communication but do not offer protection for sensitive information.",
+        "d": "Q codes are not intended for entertainment; they are used for efficient and effective communication, particularly in critical or high-stakes situations."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "Advanced"
     },
     {
